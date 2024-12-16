@@ -1,0 +1,36 @@
+body{
+    font-family: Georgia;/*fondi tüüp*/
+    color: yellowgreen;/*teksti värv*/
+}
+header h1{
+    border: solid 1px yellowgreen;
+    padding: 10%; /*vahe tekstist ääriseni*/
+    margin: 10px;
+    border-radius: 130px;
+    width: 50%;
+    background-color: darkslategray;
+}
+h2{
+    border: solid 4px yellowgreen; /*dashend, ouline, double,solid,*/
+    padding: 10%; /*vahe tekstist ääriseni*/
+    margin: 10px;
+    border-radius: 130px;
+    width: 50%; /*laius*/
+    background-color: darkslategray; /*lausta värv*/
+}
+ul{
+    list-style-type: square; /*markeri tüüp - square, */
+    padding: 7px;
+    background-color: greenyellow ;
+}
+ul li{
+    background-color: darkslategray;
+    padding: 7px;
+}
+table, td{
+    width: 60px;
+    border: solid 1px yellowgreen;
+    border-collapse: collapse; /*ühine ääris*/
+    text-align: center;
+    background-color:darkslategray;
+}
