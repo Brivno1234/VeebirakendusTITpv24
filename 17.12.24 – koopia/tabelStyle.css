@@ -1,0 +1,115 @@
+table#Lihtne, td{
+    /*html Failis id=lihtne*/
+    Width:60%;
+    border: 1px solid black;
+    text-align: center; /*teksti joomdamine keskele*/
+    padding: 10px; /*vahe telstist äärisemi*/
+    border-collapse: collapse;
+}
+#lihtne tr:nth-child(1) td:nth-child(1) {
+
+    background-color: yellowgreen;
+}
+#lihtne tr:nth-child(1) td:nth-child(2) {
+     background-color: yellow;
+}
+#lihtne tr:nth-child(1) td:nth-child(3) {
+    background-color: orange;
+}
+#lihtne tr:nth-child(1) td:nth-child(4) {
+    background-color: orangered;
+}
+#lihtne tr:nth-child(1) td:nth-child(5) {
+    background-color: red;
+}
+#lihtne tr:nth-child(1) td:nth-child(6) {
+    background-color: rebeccapurple;
+}
+
+
+
+table#keeruline1, table#keeruline1 td{
+    /*html Failis id=lihtne*/
+    Width:60%;
+    border: 1px solid black;
+    text-align: center; /*teksti joomdamine keskele*/
+    padding: 5px; /*vahe telstist äärisemi*/
+    border-collapse: collapse;
+    background-color: yellowgreen;
+}
+table#keeruline2, table#keeruline2 td{
+    /*html Failis id=lihtne*/
+    Width:50%;
+    border: 1px solid black;
+    text-align: center; /*teksti joomdamine keskele*/
+    padding: 5px; /*vahe telstist äärisemi*/
+    border-collapse: collapse;
+    background-color: yellowgreen;
+}
+table#haittable, table#haittable td {
+    /*html Failis id=lihtne*/
+    Width:40%;
+    border: 1px solid black;
+    text-align: center; /*teksti joomdamine keskele*/
+    padding: 10px; /*vahe telstist äärisemi*/
+    border-collapse: collapse;
+    background-color: yellowgreen;
+}
+table#praktik, table#praktik td{
+    /*html Failis id=lihtne*/
+    Width:25%;
+    border: 1px solid black;
+    text-align: center; /*teksti joomdamine keskele*/
+    padding: 15px; /*vahe telstist äärisemi*/
+    border-collapse: collapse;
+background-color: orange;
+}
+#praktik tr:nth-child(1) td:nth-child(1) {
+
+     background-color: yellowgreen;
+    width: 25%;
+ }
+#praktik tr:nth-child(1) td:nth-child(2) {
+
+    background-color: yellow;
+   width: 75%;
+}
+#praktik tr:nth-child(2) td:nth-child(1) {
+
+    background-color: orange;
+    width: 50%;
+}
+#praktik :nth-child(2) td:nth-child(2) {
+
+    background-color: orangered;
+    width: 50%;
+}
+#praktik tr:nth-child(3) td:nth-child(1) {
+
+    background-color: red;
+    width: 75%;
+}
+#praktik tr:nth-child(3) td:nth-child(2) {
+
+    background-color: rebeccapurple;
+    width: 25%;
+}
+#praktik tr:nth-child(4) td:nth-child(1) {
+
+    background-color: lawngreen;
+    width: 25%;
+}
+#praktik tr:nth-child(4) td:nth-child(2) {
+
+    background-color: dodgerblue;
+    width: 25%;
+}
+#praktik tr:nth-child(4) td:nth-child(3) {
+
+    background-color: plum;
+    width: 25%;
+}#praktik tr:nth-child(4) td:nth-child(4) {
+
+     background-color: aquamarine  ;
+    width: 25%;
+ }
