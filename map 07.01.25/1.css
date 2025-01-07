@@ -1,0 +1,39 @@
+div{
+    width: 40%;
+    border: solid  1pt yellowgreen;
+    position: absolute;
+    left: 10cm;
+    top: 3cm;
+    padding: 3%;
+
+    font-family: georgia,times, serif;
+}
+footer{
+
+    text-align: center;
+    background-color: darkolivegreen;
+    position: fixed ;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+}
+header{
+    text-align: center;
+    width: 100%;
+    font-family: georgia,times, serif;
+    font-variant: small-caps;
+    letter-spacing: 0.1cm;
+    background-color: yellowgreen;
+}
+img{
+    border:solid 1pt yellowgreen;
+    border-bottom:9cm ;
+    /*filter: blur (2px)     */
+    filter: chroma(opacity=100);
+}
+img{
+    border:solid 1pt yellowgreen;
+    border-bottom:9cm ;
+    /*filter: blur (2px)     */
+    filter: barn(2px);
+}
