@@ -1,0 +1,43 @@
+body{
+    font-family: Georgia, Serif;
+    background-color: greenyellow ;
+}
+input[type=text]{
+    width: 15%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 2px solid darkolivegreen;
+    border-radius:  5px;
+    background-color: wheat  ;
+    color: black;
+}
+input[type=radio]{
+    width: 5%;
+    background-color: aqua;
+    box-sizing: border-box;
+    font-size:16px ;
+}
+select{
+    width: 15%;
+    padding: 8px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 2px solid darkolivegreen;
+    border-radius:  5px;
+    background-color: wheat  ;
+    color: black;
+    cursor: pointer;
+}
+input[type=reset],input[type=button]{
+    width: 12%;
+    padding: 8px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px solid darkolivegreen;
+    border-radius:  5px;
+    background-color: wheat  ;
+    color: black;
+    cursor: pointer;
+}
+
