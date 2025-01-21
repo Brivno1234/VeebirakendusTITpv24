@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muusika ankeet</title>
+    <link rel="stylesheet" href="ankeetstyle.css">
+</head>
+<body>
+<h1>Muusika ankeet</h1>
+<form action="#">
+    <!--Tekst kast-текстовый яшик-->
+    <!-- на клейка-->
+    <label for="nimi">Eesnimi</label>
+    <input type="text" id="nimi" placeholder="kirjuta nimi">
+    <br>
+    <!--заголовок-->
+    <strong>Vali rüjm</strong>
+    <br>
+    <!--radio nupp- круглая кнопка-->
+    <input type="radio" id="titpv24" placeholder="ryhm" checked >
+    <label for="titpv24">TiTpv24</label>
+    <br>
+    <input type="radio" id="logitpv24" placeholder="ryhm" >
+    <label for="logitpv24">logitpv24</label>
+    <br>
+    <input type="radio" id="tarpv24" placeholder="ryhm" >
+    <label for="tarpv24">tarpv24</label>
+    <br>
+    <input type="radio" id="krrpv24" placeholder="ryhm" >
+    <label for="krrpv24">krrpv24</label>
+    <br>
+    <!--checkbox-связано з галкамы можно отмичать багато-->
+    <strong>Millist muusikat sa kuulad?</strong>
+    <br>
+    <input type="checkbox"  id="rock">
+    <label for="rock">rock</label>
+    <br>
+    <input type="checkbox"  id="Disco">
+    <label for="Disco">Disco</label>
+    <br>
+    <input type="checkbox"  id="Drum and bass">
+    <label for="Drum and bass">Drum and bass</label>
+    <br>
+    <input type="checkbox"  id="Techno">
+    <label for="Techno">Techno</label>
+    <br>
+    <input type="checkbox"  id="Metal">
+    <label for="Metal">Metal</label>
+    <br>
+    <input type="checkbox"  id="rep">
+    <label for="rep">rep</label>
+    <br>
+    <label for="varv">mis värvi on rock-muusika</label>
+    <input type="color" id="varv">
+    <br>
+    <!-- ripploend выпадающий список-->
+    <label for="tund">
+        Mitu tundi päevas sa kuuladmuusikat?
+    </label>
+    <select name="tund" id="tund">
+        <option value="15 min">15 min</option>
+        <option value="30 min">30 min</option>
+        <option value="1 tund">1 tund</option>
+        <option value="2 tund">2tund</option>
+    </select>
+    <br>
+    0tundi<input type="range" min="0" max="24" id="range">24tundi
+    <br>
+    <strong>YOU LOVE MUSICK?</strong>
+    <br>
+    <input type="radio" id="you love musick" placeholder="ryhm" >
+    <label for="you love musick">jah</label>
+    <br>
+    <input type="radio" id="dont you love musick" placeholder="ryhm" >
+    <label for="dont you love musick">no</label>
+    <br>
+    <label for="MGz">
+        mitu raadiolaineid sa tead?
+    </label>
+    <select name="MGz" id="MGz">
+        <option value="1raadiolaine">1 raadiolaine</option>
+        <option value="2raadiolaine">2 raadiolaine</option>
+        <option value="3raadiolaine">3 raadiolaine </option>
+        <option value="4raadiolaine">4 raadiolaine</option>
+    </select>
+    <br>
+    <input type="button" value="Salvesta" >
+    <input type="reset" value="Puhasta">
+    <br>
+    <label for="nimi">kirjuta sinu kuupäev</label>
+    <input tepy="date" id="kuupäev" placeholder="kiriuta siia">
+</form>
+</body>
+</html>

@@ -1,0 +1,100 @@
+body{
+    font-family: Georgia, Serif;
+    background-color: greenyellow ;
+}
+input[type=text]{
+    width: 35%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 2px solid darkolivegreen;
+    border-radius:  5px;
+    background-color: wheat  ;
+    color: black;
+}
+input[type=radio]{
+    width: 5%;
+    background-color: aqua;
+    box-sizing: border-box;
+    font-size:16px ;
+}
+select{
+    width: 15%;
+    padding: 8px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 2px solid darkolivegreen;
+    border-radius:  5px;
+    background-color: wheat  ;
+    color: black;
+    cursor: pointer;
+}
+input[type=reset],input[type=button]{
+    width: 12%;
+    padding: 8px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px solid darkolivegreen;
+    border-radius:  5px;
+    background-color: wheat  ;
+    color: black;
+    cursor: pointer;
+}
+input[type=checkbox] + label {
+    display: inline-block;
+    width: 12%;
+    height: 22px;
+    padding-left: 40px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    line-height: 32px;
+    cursor: pointer;
+
+}
+input[type=radio]  + label {
+    display: inline-block;
+    width: 12%;
+    height: 22px;
+    padding-left: 40px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    line-height: 32px;
+    cursor: pointer;
+}
+table{
+    width: 60%;
+    padding: 8px; /*vahe tekstist ääriseni*/
+    border: 1px solid darkolivegreen;
+    border-collapse: collapse;
+    margin: 5px; /*vahe lehtest*/
+
+}
+input[type=button] {
+    width:21%;
+    background-color: wheat;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+input[type=reset] {
+    width:21%;
+    background-color: wheat;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+input[type=date] {
+    width:30%;
+    background-color: wheat;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+input {
+     width:21%;
+     background-color: wheat;
+     box-sizing: border-box;
+     font-size: 16px;
+ }
+tg{
+    padding: 8px;
+
+}
+
